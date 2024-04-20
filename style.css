@@ -1,0 +1,108 @@
+@import url("https://fonts.google.com/specimen/Figtree");
+
+:root {
+  /*primary*/
+  --Yellow: hsl(47, 88%, 63%);
+  /*neutral*/
+  --White: hsl(0, 0%, 100%);
+  --Gray: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Figtree", Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--Yellow);
+  padding: 50px;
+}
+
+main {
+  width: 100%;
+}
+
+.card {
+  background-color: var(--White);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid var(--Black);
+  border-radius: 30px;
+  width: auto;
+  max-width: 350px;
+  margin: 0 auto;
+  box-shadow: var(--Black) 10px 10px;
+}
+
+.image-div {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.learning-button {
+  padding: 8px;
+  background-color: var(--Yellow);
+  width: 100px;
+  text-align: center;
+  border-radius: 7%;
+  font-weight: 800;
+  margin-top: 15px;
+  margin-bottom: 2px;
+}
+
+.learning-button:where(:focus, :hover) {
+  transform: skewX(10deg);
+}
+
+.published {
+  font-weight: 500;
+  font-style: italic;
+  color: var(--Black);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 2px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 7px;
+  text-align: left;
+}
+
+.card-description {
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: var(--Gray);
+  word-spacing: 0.2rem;
+}
+
+.avatar-div {
+  display: flex;
+}
+
+.avatar {
+  width: 15%;
+  padding-right: 15px;
+}
+
+.avatar-name {
+  color: var(--Black);
+  font-weight: 800;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--Gray);
+  padding: 10px 0px 0px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
