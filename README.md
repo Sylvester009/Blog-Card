@@ -10,7 +10,7 @@ This is a project about buiding a Blog preview card using HTML and CSS.
 
 ### Links
 
-- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/responsive-webpage-using-css-flexbox-ML_d7iOVfx)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/responsive-blog-card-0JIsjILObd)
   
 - Live Site URL: [Live URL here](https://blog-card-drab.vercel.app/)
 
